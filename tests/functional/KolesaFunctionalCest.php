@@ -5,6 +5,11 @@ use SebastianBergmann\CodeCoverage\Report\Text;
 class KolesaFunctionalCest
 {
 
+    //1. Зайти на http://automationpractice.com/index.php
+    //2. В поле поиска написать «Printed dress»
+    //3. Кликнуть на кнопку поиска
+    //4. На странице результатов убедиться, что было найдено 5 товаров (считать карточки товаров)
+
     // tests
     public function tryToTest(FunctionalTester $I)
     {
